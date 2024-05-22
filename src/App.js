@@ -39,7 +39,7 @@ function App() {
     <>
     <header className='w-80 h-12 border mx-auto rounded-md bg-cwhite border-cwhite'>
       <div className='my-2 mr-2 text-right'>
-        <button className='border w-16 rounded-md text-sm bg-white border-cwhite py-1'>Today</button>
+        <button className='border w-16 rounded-md text-sm bg-white border-cwhite py-1' onClick={(e)=>{setValue(new Date())}}>Today</button>
         <button className='border w-28 text-sm bg-green rounded-md text-cwhite ml-1 py-1' onClick={(e) => {handleOpen()}}>Create Event</button>
       </div>
       
